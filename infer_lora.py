@@ -1,8 +1,8 @@
 from diffusers import StableDiffusionPipeline
 import torch
 
-seed = 100
-torch.manual_seed(seed)
+# seed = 100
+# torch.manual_seed(seed)
 
 model_path = "./onepiece-latest/"
 pipe = StableDiffusionPipeline.from_pretrained("CompVis/stable-diffusion-v1-4", safety_checker = None)
