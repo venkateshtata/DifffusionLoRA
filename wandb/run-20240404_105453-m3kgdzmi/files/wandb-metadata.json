@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.19.0-45-generic-x86_64-with-glibc2.31",
+    "python": "3.9.16",
+    "heartbeatAt": "2024-04-04T10:54:54.508621",
+    "startedAt": "2024-04-04T10:54:53.956165",
+    "docker": null,
+    "gpu": "NVIDIA RTX A6000",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/notebooks/lora/diffusers/examples/text_to_image/train_diff_lora.py",
+    "codePath": "examples/text_to_image/train_diff_lora.py",
+    "git": {
+        "remote": "https://github.com/huggingface/diffusers",
+        "commit": "c2e87869be81bef9c87adb34b7815adebe042e64"
+    },
+    "email": null,
+    "root": "/notebooks/lora/diffusers",
+    "host": "nwowq2r1g1",
+    "username": "root",
+    "executable": "/usr/local/bin/python"
+}

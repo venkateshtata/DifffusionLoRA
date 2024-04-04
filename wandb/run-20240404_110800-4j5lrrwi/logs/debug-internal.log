@@ -1,0 +1,556 @@
+2024-04-04 11:08:00,955 INFO    StreamThr :1341 [internal.py:wandb_internal():88] W&B internal server running at pid: 1341, started at: 2024-04-04 11:08:00.954674
+2024-04-04 11:08:00,957 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: status
+2024-04-04 11:08:00,958 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: status
+2024-04-04 11:08:00,959 DEBUG   SenderThread:1341 [sender.py:send():303] send: header
+2024-04-04 11:08:00,960 INFO    WriterThread:1341 [datastore.py:open_for_write():75] open: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/run-4j5lrrwi.wandb
+2024-04-04 11:08:01,256 DEBUG   SenderThread:1341 [sender.py:send():303] send: run
+2024-04-04 11:08:01,443 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: check_version
+2024-04-04 11:08:01,459 INFO    SenderThread:1341 [dir_watcher.py:__init__():216] watching files in: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files
+2024-04-04 11:08:01,459 INFO    SenderThread:1341 [sender.py:_start_run_threads():928] run started: 4j5lrrwi with start time 1712228880.953957
+2024-04-04 11:08:01,459 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:08:01,460 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:08:01,460 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: check_version
+2024-04-04 11:08:01,509 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: run_start
+2024-04-04 11:08:01,517 DEBUG   HandlerThread:1341 [meta.py:__init__():34] meta init
+2024-04-04 11:08:01,517 DEBUG   HandlerThread:1341 [meta.py:__init__():49] meta init done
+2024-04-04 11:08:01,517 DEBUG   HandlerThread:1341 [meta.py:probe():215] probe
+2024-04-04 11:08:01,531 DEBUG   HandlerThread:1341 [meta.py:_setup_git():205] setup git
+2024-04-04 11:08:01,551 DEBUG   HandlerThread:1341 [meta.py:_setup_git():212] setup git done
+2024-04-04 11:08:01,551 DEBUG   HandlerThread:1341 [meta.py:_save_pip():53] save pip
+2024-04-04 11:08:01,552 DEBUG   HandlerThread:1341 [meta.py:_save_pip():67] save pip done
+2024-04-04 11:08:01,552 DEBUG   HandlerThread:1341 [meta.py:probe():253] probe done
+2024-04-04 11:08:01,647 DEBUG   SenderThread:1341 [sender.py:send():303] send: files
+2024-04-04 11:08:01,648 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2024-04-04 11:08:01,652 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: stop_status
+2024-04-04 11:08:01,653 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: stop_status
+2024-04-04 11:08:01,751 DEBUG   SenderThread:1341 [sender.py:send():303] send: telemetry
+2024-04-04 11:08:01,751 DEBUG   SenderThread:1341 [sender.py:send():303] send: config
+2024-04-04 11:08:01,956 INFO    Thread-17 :1341 [upload_job.py:push():143] Uploaded file /tmp/tmpmgiiv3fowandb/12pu98yf-wandb-metadata.json
+2024-04-04 11:08:02,461 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_created():275] file/dir created: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:08:02,462 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_created():275] file/dir created: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-metadata.json
+2024-04-04 11:08:02,462 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_created():275] file/dir created: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:08:02,462 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_created():275] file/dir created: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/requirements.txt
+2024-04-04 11:08:04,461 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:08:10,685 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:08:12,464 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:08:14,433 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:08:14,434 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:08:14,434 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:08:14,438 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:08:14,465 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:08:16,466 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:08:16,755 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: stop_status
+2024-04-04 11:08:16,755 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: stop_status
+2024-04-04 11:08:17,407 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:08:17,408 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:08:17,408 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:08:17,415 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:08:17,466 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:08:20,468 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:08:21,552 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:08:21,552 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:08:21,553 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:08:21,565 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:08:22,469 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:08:24,469 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:08:25,430 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:08:25,430 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:08:25,431 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:08:25,434 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:08:25,470 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:08:28,409 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:08:28,410 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:08:28,410 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:08:28,419 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:08:28,471 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:08:28,471 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:08:29,647 DEBUG   SenderThread:1341 [sender.py:send():303] send: stats
+2024-04-04 11:08:30,472 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:08:31,363 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:08:31,486 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:08:31,487 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:08:31,490 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:08:31,906 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: stop_status
+2024-04-04 11:08:31,907 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: stop_status
+2024-04-04 11:08:32,472 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:08:32,473 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/config.yaml
+2024-04-04 11:08:34,473 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:08:34,850 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:08:34,851 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:08:34,851 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:08:34,856 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:08:35,477 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:08:36,478 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:08:38,305 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:08:38,306 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:08:38,306 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:08:38,327 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:08:38,479 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:08:38,479 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:08:40,481 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:08:41,671 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:08:41,672 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:08:41,672 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:08:41,676 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:08:42,480 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:08:44,481 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:08:45,120 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:08:45,121 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:08:45,121 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:08:45,125 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:08:45,482 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:08:46,482 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:08:47,076 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: stop_status
+2024-04-04 11:08:47,077 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: stop_status
+2024-04-04 11:08:48,483 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:08:48,741 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:08:48,742 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:08:48,742 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:08:48,760 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:08:49,483 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:08:50,484 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:08:51,906 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:08:51,906 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:08:51,906 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:08:51,913 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:08:52,485 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:08:54,485 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:08:54,919 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:08:54,919 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:08:54,920 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:08:54,924 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:08:55,486 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:08:56,486 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:08:58,487 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:08:58,881 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:08:58,886 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:08:58,887 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:08:58,898 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:08:59,488 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:08:59,808 DEBUG   SenderThread:1341 [sender.py:send():303] send: stats
+2024-04-04 11:09:00,488 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:09:02,211 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: stop_status
+2024-04-04 11:09:02,211 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: stop_status
+2024-04-04 11:09:02,489 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:09:03,094 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:09:03,095 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:09:03,095 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:09:03,099 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:09:03,490 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:09:04,490 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:09:06,491 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:09:06,828 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:09:06,829 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:09:06,829 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:09:06,833 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:09:07,492 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:09:08,492 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:09:09,985 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:09:09,986 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:09:09,986 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:09:09,991 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:09:10,493 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:09:12,494 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:09:12,953 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:09:12,954 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:09:12,954 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:09:12,958 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:09:13,494 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:09:14,494 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:09:15,902 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:09:15,902 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:09:15,902 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:09:15,911 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:09:16,495 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:09:16,495 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:09:17,378 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: stop_status
+2024-04-04 11:09:17,379 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: stop_status
+2024-04-04 11:09:18,496 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:09:19,720 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:09:19,720 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:09:19,720 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:09:19,735 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:09:20,497 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:09:22,498 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:09:23,645 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:09:23,646 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:09:23,646 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:09:23,651 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:09:24,499 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:09:26,499 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:09:27,508 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:09:27,509 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:09:27,509 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:09:27,524 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:09:28,500 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:09:29,943 DEBUG   SenderThread:1341 [sender.py:send():303] send: stats
+2024-04-04 11:09:30,501 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:09:31,023 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:09:31,024 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:09:31,024 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:09:31,027 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:09:31,501 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:09:32,502 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:09:32,619 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: stop_status
+2024-04-04 11:09:32,619 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: stop_status
+2024-04-04 11:09:34,023 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:09:34,024 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:09:34,024 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:09:34,041 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:09:34,503 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:09:34,503 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:09:36,504 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:09:38,170 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:09:38,170 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:09:38,171 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:09:38,185 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:09:38,505 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:09:40,506 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:09:42,234 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:09:42,235 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:09:42,235 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:09:42,259 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:09:42,506 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:09:44,507 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:09:45,489 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:09:45,490 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:09:45,490 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:09:45,502 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:09:45,508 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:09:47,754 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: stop_status
+2024-04-04 11:09:47,754 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: stop_status
+2024-04-04 11:09:48,509 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:09:48,798 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:09:48,798 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:09:48,798 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:09:48,860 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:09:49,509 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:09:50,509 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:09:51,836 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:09:51,837 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:09:51,837 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:09:51,841 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:09:52,510 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:09:54,511 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:09:55,649 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:09:55,654 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:09:55,654 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:09:55,659 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:09:56,513 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:09:58,514 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:09:59,409 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:09:59,410 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:09:59,410 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:09:59,415 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:09:59,514 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:10:00,111 DEBUG   SenderThread:1341 [sender.py:send():303] send: stats
+2024-04-04 11:10:00,515 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:10:02,533 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:10:02,994 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: stop_status
+2024-04-04 11:10:03,013 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: stop_status
+2024-04-04 11:10:03,321 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:10:07,119 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:10:08,146 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:10:08,147 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:10:08,155 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:10:08,155 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:10:08,155 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:10:08,159 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:10:08,542 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:10:10,543 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:10:10,965 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:10:10,966 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:10:10,966 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:10:10,998 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:10:11,544 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:10:12,544 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:10:14,545 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:10:14,653 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:10:14,654 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:10:14,654 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:10:14,658 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:10:15,545 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:10:16,546 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:10:18,173 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:10:18,174 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:10:18,174 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:10:18,189 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:10:18,547 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:10:20,548 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:10:21,369 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:10:21,369 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:10:21,370 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:10:21,374 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:10:21,548 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:10:22,548 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:10:22,995 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: stop_status
+2024-04-04 11:10:22,995 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: stop_status
+2024-04-04 11:10:24,429 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:10:24,429 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:10:24,430 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:10:24,435 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:10:24,552 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:10:24,552 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:10:26,553 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:10:28,109 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:10:28,109 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:10:28,110 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:10:28,141 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:10:28,553 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:10:30,241 DEBUG   SenderThread:1341 [sender.py:send():303] send: stats
+2024-04-04 11:10:30,554 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:10:31,135 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:10:31,136 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:10:31,136 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:10:31,142 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:10:31,555 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:10:32,555 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:10:34,413 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:10:34,414 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:10:34,414 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:10:34,420 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:10:34,556 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:10:34,556 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:10:36,557 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:10:38,163 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: stop_status
+2024-04-04 11:10:38,163 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: stop_status
+2024-04-04 11:10:38,334 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:10:38,334 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:10:38,334 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:10:38,355 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:10:38,557 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:10:40,558 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:10:42,180 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:10:42,180 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:10:42,181 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:10:42,185 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:10:42,559 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:10:44,560 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:10:45,465 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:10:45,466 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:10:45,466 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:10:45,478 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:10:45,560 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:10:46,561 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:10:48,477 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:10:48,478 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:10:48,478 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:10:48,482 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:10:48,561 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:10:48,562 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:10:50,562 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:10:51,541 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:10:51,542 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:10:51,543 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:10:51,546 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:10:51,562 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:10:52,563 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:10:53,327 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: stop_status
+2024-04-04 11:10:53,327 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: stop_status
+2024-04-04 11:10:54,563 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:10:55,169 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:10:55,169 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:10:55,170 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:10:55,176 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:10:55,564 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:10:56,564 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:10:58,313 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:10:58,314 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:10:58,314 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:10:58,322 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:10:58,565 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:10:58,565 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:11:00,375 DEBUG   SenderThread:1341 [sender.py:send():303] send: stats
+2024-04-04 11:11:00,565 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:11:01,216 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:11:01,216 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:11:01,216 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:11:01,222 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:11:01,566 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:11:02,566 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:11:04,567 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:11:08,440 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: stop_status
+2024-04-04 11:11:08,441 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: stop_status
+2024-04-04 11:11:12,182 DEBUG   SenderThread:1341 [sender.py:send():303] send: files
+2024-04-04 11:11:12,182 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file media/images/validation_50_0dd06cfe30e62f648703.png with policy now
+2024-04-04 11:11:12,186 DEBUG   SenderThread:1341 [sender.py:send():303] send: files
+2024-04-04 11:11:12,186 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file media/images/validation_50_b50e6a03f258220944f4.png with policy now
+2024-04-04 11:11:12,190 DEBUG   SenderThread:1341 [sender.py:send():303] send: files
+2024-04-04 11:11:12,190 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file media/images/validation_50_21ea9cf2dcdb1d429eb9.png with policy now
+2024-04-04 11:11:12,195 DEBUG   SenderThread:1341 [sender.py:send():303] send: files
+2024-04-04 11:11:12,195 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file media/images/validation_50_d7347894a49634031e68.png with policy now
+2024-04-04 11:11:12,223 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:11:12,224 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:11:12,224 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:11:12,236 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:11:12,502 INFO    Thread-18 :1341 [upload_job.py:push():143] Uploaded file /tmp/tmpmgiiv3fowandb/3px8k75o-media/images/validation_50_0dd06cfe30e62f648703.png
+2024-04-04 11:11:12,535 INFO    Thread-19 :1341 [upload_job.py:push():143] Uploaded file /tmp/tmpmgiiv3fowandb/3h139ar2-media/images/validation_50_b50e6a03f258220944f4.png
+2024-04-04 11:11:12,557 INFO    Thread-20 :1341 [upload_job.py:push():143] Uploaded file /tmp/tmpmgiiv3fowandb/2qj50xqz-media/images/validation_50_21ea9cf2dcdb1d429eb9.png
+2024-04-04 11:11:12,558 INFO    Thread-21 :1341 [upload_job.py:push():143] Uploaded file /tmp/tmpmgiiv3fowandb/2guh6rlt-media/images/validation_50_d7347894a49634031e68.png
+2024-04-04 11:11:12,584 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:11:12,584 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_created():275] file/dir created: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/media/images/validation_50_d7347894a49634031e68.png
+2024-04-04 11:11:12,584 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_created():275] file/dir created: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/media/images/validation_50_0dd06cfe30e62f648703.png
+2024-04-04 11:11:12,584 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_created():275] file/dir created: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/media/images/validation_50_21ea9cf2dcdb1d429eb9.png
+2024-04-04 11:11:12,584 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_created():275] file/dir created: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/media/images/validation_50_b50e6a03f258220944f4.png
+2024-04-04 11:11:12,584 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_created():275] file/dir created: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/media/images
+2024-04-04 11:11:12,585 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_created():275] file/dir created: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/media
+2024-04-04 11:11:13,083 INFO    Thread-25 :1341 [upload_job.py:push():143] Uploaded file /tmp/tmpmgiiv3fowandb/3s4282bk-media/images/validation_50_b50e6a03f258220944f4.png
+2024-04-04 11:11:13,084 INFO    Thread-22 :1341 [upload_job.py:push():143] Uploaded file /tmp/tmpmgiiv3fowandb/24eu3igu-media/images/validation_50_d7347894a49634031e68.png
+2024-04-04 11:11:13,087 INFO    Thread-24 :1341 [upload_job.py:push():143] Uploaded file /tmp/tmpmgiiv3fowandb/ayks185a-media/images/validation_50_21ea9cf2dcdb1d429eb9.png
+2024-04-04 11:11:14,585 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:11:16,586 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:11:18,587 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:11:20,588 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:11:22,589 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:11:23,159 INFO    Thread-23 :1341 [upload_job.py:push():143] Uploaded file /tmp/tmpmgiiv3fowandb/3hx7p0rk-media/images/validation_50_0dd06cfe30e62f648703.png
+2024-04-04 11:11:23,478 DEBUG   SenderThread:1341 [sender.py:send():303] send: files
+2024-04-04 11:11:23,479 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file media/images/test_51_0dd06cfe30e62f648703.png with policy now
+2024-04-04 11:11:23,522 DEBUG   SenderThread:1341 [sender.py:send():303] send: files
+2024-04-04 11:11:23,522 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file media/images/test_51_b50e6a03f258220944f4.png with policy now
+2024-04-04 11:11:23,523 DEBUG   SenderThread:1341 [sender.py:send():303] send: files
+2024-04-04 11:11:23,523 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file media/images/test_51_21ea9cf2dcdb1d429eb9.png with policy now
+2024-04-04 11:11:23,523 DEBUG   SenderThread:1341 [sender.py:send():303] send: files
+2024-04-04 11:11:23,523 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file media/images/test_51_d7347894a49634031e68.png with policy now
+2024-04-04 11:11:23,524 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: partial_history
+2024-04-04 11:11:23,524 DEBUG   SenderThread:1341 [sender.py:send():303] send: history
+2024-04-04 11:11:23,524 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:11:23,529 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:11:23,529 DEBUG   SenderThread:1341 [sender.py:send():303] send: telemetry
+2024-04-04 11:11:23,529 DEBUG   SenderThread:1341 [sender.py:send():303] send: exit
+2024-04-04 11:11:23,529 INFO    SenderThread:1341 [sender.py:send_exit():442] handling exit code: 0
+2024-04-04 11:11:23,530 INFO    SenderThread:1341 [sender.py:send_exit():444] handling runtime: 202
+2024-04-04 11:11:23,534 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:11:23,534 INFO    SenderThread:1341 [sender.py:send_exit():450] send defer
+2024-04-04 11:11:23,535 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: defer
+2024-04-04 11:11:23,535 INFO    HandlerThread:1341 [handler.py:handle_request_defer():161] handle defer: 0
+2024-04-04 11:11:23,535 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: defer
+2024-04-04 11:11:23,535 INFO    SenderThread:1341 [sender.py:send_request_defer():459] handle sender defer: 0
+2024-04-04 11:11:23,536 INFO    SenderThread:1341 [sender.py:transition_state():463] send defer: 1
+2024-04-04 11:11:23,536 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: defer
+2024-04-04 11:11:23,536 INFO    HandlerThread:1341 [handler.py:handle_request_defer():161] handle defer: 1
+2024-04-04 11:11:23,570 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: defer
+2024-04-04 11:11:23,570 INFO    SenderThread:1341 [sender.py:send_request_defer():459] handle sender defer: 1
+2024-04-04 11:11:23,570 INFO    SenderThread:1341 [sender.py:transition_state():463] send defer: 2
+2024-04-04 11:11:23,570 DEBUG   SenderThread:1341 [sender.py:send():303] send: stats
+2024-04-04 11:11:23,571 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: defer
+2024-04-04 11:11:23,571 INFO    HandlerThread:1341 [handler.py:handle_request_defer():161] handle defer: 2
+2024-04-04 11:11:23,571 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: defer
+2024-04-04 11:11:23,571 INFO    SenderThread:1341 [sender.py:send_request_defer():459] handle sender defer: 2
+2024-04-04 11:11:23,571 INFO    SenderThread:1341 [sender.py:transition_state():463] send defer: 3
+2024-04-04 11:11:23,571 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: defer
+2024-04-04 11:11:23,571 INFO    HandlerThread:1341 [handler.py:handle_request_defer():161] handle defer: 3
+2024-04-04 11:11:23,571 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: defer
+2024-04-04 11:11:23,571 INFO    SenderThread:1341 [sender.py:send_request_defer():459] handle sender defer: 3
+2024-04-04 11:11:23,571 INFO    SenderThread:1341 [sender.py:transition_state():463] send defer: 4
+2024-04-04 11:11:23,571 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: defer
+2024-04-04 11:11:23,572 INFO    HandlerThread:1341 [handler.py:handle_request_defer():161] handle defer: 4
+2024-04-04 11:11:23,572 DEBUG   SenderThread:1341 [sender.py:send():303] send: summary
+2024-04-04 11:11:23,576 INFO    SenderThread:1341 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2024-04-04 11:11:23,577 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: defer
+2024-04-04 11:11:23,577 INFO    SenderThread:1341 [sender.py:send_request_defer():459] handle sender defer: 4
+2024-04-04 11:11:23,577 INFO    SenderThread:1341 [sender.py:transition_state():463] send defer: 5
+2024-04-04 11:11:23,577 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: defer
+2024-04-04 11:11:23,577 INFO    HandlerThread:1341 [handler.py:handle_request_defer():161] handle defer: 5
+2024-04-04 11:11:23,577 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: defer
+2024-04-04 11:11:23,577 INFO    SenderThread:1341 [sender.py:send_request_defer():459] handle sender defer: 5
+2024-04-04 11:11:23,590 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:11:23,590 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_created():275] file/dir created: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/media/images/test_51_b50e6a03f258220944f4.png
+2024-04-04 11:11:23,590 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_created():275] file/dir created: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/media/images/test_51_0dd06cfe30e62f648703.png
+2024-04-04 11:11:23,590 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_created():275] file/dir created: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/media/images/test_51_d7347894a49634031e68.png
+2024-04-04 11:11:23,590 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_created():275] file/dir created: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/media/images/test_51_21ea9cf2dcdb1d429eb9.png
+2024-04-04 11:11:23,591 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/media/images
+2024-04-04 11:11:23,818 INFO    Thread-26 :1341 [upload_job.py:push():143] Uploaded file /tmp/tmpmgiiv3fowandb/1oimcbow-media/images/test_51_0dd06cfe30e62f648703.png
+2024-04-04 11:11:23,818 INFO    Thread-27 :1341 [upload_job.py:push():143] Uploaded file /tmp/tmpmgiiv3fowandb/riul8cf1-media/images/test_51_b50e6a03f258220944f4.png
+2024-04-04 11:11:23,823 INFO    SenderThread:1341 [sender.py:transition_state():463] send defer: 6
+2024-04-04 11:11:23,823 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: defer
+2024-04-04 11:11:23,823 INFO    HandlerThread:1341 [handler.py:handle_request_defer():161] handle defer: 6
+2024-04-04 11:11:23,823 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: defer
+2024-04-04 11:11:23,823 INFO    SenderThread:1341 [sender.py:send_request_defer():459] handle sender defer: 6
+2024-04-04 11:11:23,851 INFO    Thread-29 :1341 [upload_job.py:push():143] Uploaded file /tmp/tmpmgiiv3fowandb/10efwacy-media/images/test_51_d7347894a49634031e68.png
+2024-04-04 11:11:24,132 INFO    SenderThread:1341 [sender.py:transition_state():463] send defer: 7
+2024-04-04 11:11:24,133 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: defer
+2024-04-04 11:11:24,133 INFO    HandlerThread:1341 [handler.py:handle_request_defer():161] handle defer: 7
+2024-04-04 11:11:24,133 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: defer
+2024-04-04 11:11:24,133 INFO    SenderThread:1341 [sender.py:send_request_defer():459] handle sender defer: 7
+2024-04-04 11:11:24,133 INFO    SenderThread:1341 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-04-04 11:11:24,262 INFO    Thread-30 :1341 [upload_job.py:push():143] Uploaded file /tmp/tmpmgiiv3fowandb/3gjtaxh3-media/images/test_51_0dd06cfe30e62f648703.png
+2024-04-04 11:11:24,330 INFO    Thread-31 :1341 [upload_job.py:push():143] Uploaded file /tmp/tmpmgiiv3fowandb/udgkawda-media/images/test_51_d7347894a49634031e68.png
+2024-04-04 11:11:24,519 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: poll_exit
+2024-04-04 11:11:24,590 INFO    Thread-13 :1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:11:24,591 INFO    SenderThread:1341 [dir_watcher.py:_on_file_modified():292] file/dir modified: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/config.yaml
+2024-04-04 11:11:24,591 INFO    SenderThread:1341 [dir_watcher.py:finish():392] scan: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files
+2024-04-04 11:11:24,591 INFO    SenderThread:1341 [dir_watcher.py:finish():406] scan save: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/requirements.txt requirements.txt
+2024-04-04 11:11:24,591 INFO    SenderThread:1341 [dir_watcher.py:finish():406] scan save: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-metadata.json wandb-metadata.json
+2024-04-04 11:11:24,592 INFO    SenderThread:1341 [dir_watcher.py:finish():406] scan save: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json wandb-summary.json
+2024-04-04 11:11:24,592 INFO    SenderThread:1341 [dir_watcher.py:finish():406] scan save: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log output.log
+2024-04-04 11:11:24,605 INFO    SenderThread:1341 [dir_watcher.py:finish():406] scan save: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/config.yaml config.yaml
+2024-04-04 11:11:24,610 INFO    SenderThread:1341 [dir_watcher.py:finish():406] scan save: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/media/images/test_51_21ea9cf2dcdb1d429eb9.png media/images/test_51_21ea9cf2dcdb1d429eb9.png
+2024-04-04 11:11:24,610 INFO    SenderThread:1341 [dir_watcher.py:finish():406] scan save: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/media/images/validation_50_d7347894a49634031e68.png media/images/validation_50_d7347894a49634031e68.png
+2024-04-04 11:11:24,610 INFO    SenderThread:1341 [dir_watcher.py:finish():406] scan save: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/media/images/test_51_0dd06cfe30e62f648703.png media/images/test_51_0dd06cfe30e62f648703.png
+2024-04-04 11:11:24,610 INFO    SenderThread:1341 [dir_watcher.py:finish():406] scan save: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/media/images/test_51_d7347894a49634031e68.png media/images/test_51_d7347894a49634031e68.png
+2024-04-04 11:11:24,610 INFO    SenderThread:1341 [dir_watcher.py:finish():406] scan save: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/media/images/validation_50_b50e6a03f258220944f4.png media/images/validation_50_b50e6a03f258220944f4.png
+2024-04-04 11:11:24,610 INFO    SenderThread:1341 [dir_watcher.py:finish():406] scan save: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/media/images/test_51_b50e6a03f258220944f4.png media/images/test_51_b50e6a03f258220944f4.png
+2024-04-04 11:11:24,611 INFO    SenderThread:1341 [dir_watcher.py:finish():406] scan save: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/media/images/validation_50_21ea9cf2dcdb1d429eb9.png media/images/validation_50_21ea9cf2dcdb1d429eb9.png
+2024-04-04 11:11:24,611 INFO    SenderThread:1341 [dir_watcher.py:finish():406] scan save: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/media/images/validation_50_0dd06cfe30e62f648703.png media/images/validation_50_0dd06cfe30e62f648703.png
+2024-04-04 11:11:24,611 INFO    SenderThread:1341 [sender.py:transition_state():463] send defer: 8
+2024-04-04 11:11:24,611 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: poll_exit
+2024-04-04 11:11:24,611 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: defer
+2024-04-04 11:11:24,612 INFO    HandlerThread:1341 [handler.py:handle_request_defer():161] handle defer: 8
+2024-04-04 11:11:24,613 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: defer
+2024-04-04 11:11:24,613 INFO    SenderThread:1341 [sender.py:send_request_defer():459] handle sender defer: 8
+2024-04-04 11:11:24,613 INFO    SenderThread:1341 [file_pusher.py:finish():168] shutting down file pusher
+2024-04-04 11:11:24,841 INFO    Thread-32 :1341 [upload_job.py:push():143] Uploaded file /tmp/tmpmgiiv3fowandb/2tnq5i21-media/images/test_51_b50e6a03f258220944f4.png
+2024-04-04 11:11:24,901 INFO    Thread-33 :1341 [upload_job.py:push():143] Uploaded file /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/requirements.txt
+2024-04-04 11:11:25,001 INFO    Thread-34 :1341 [upload_job.py:push():143] Uploaded file /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/wandb-summary.json
+2024-04-04 11:11:25,520 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: poll_exit
+2024-04-04 11:11:25,520 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: poll_exit
+2024-04-04 11:11:26,520 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: poll_exit
+2024-04-04 11:11:26,521 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: poll_exit
+2024-04-04 11:11:27,521 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: poll_exit
+2024-04-04 11:11:27,521 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: poll_exit
+2024-04-04 11:11:28,522 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: poll_exit
+2024-04-04 11:11:28,522 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: poll_exit
+2024-04-04 11:11:28,831 INFO    Thread-28 :1341 [upload_job.py:push():143] Uploaded file /tmp/tmpmgiiv3fowandb/24p7hzf1-media/images/test_51_21ea9cf2dcdb1d429eb9.png
+2024-04-04 11:11:29,237 INFO    Thread-37 :1341 [upload_job.py:push():143] Uploaded file /tmp/tmpmgiiv3fowandb/1kpogo4v-media/images/test_51_21ea9cf2dcdb1d429eb9.png
+2024-04-04 11:11:29,522 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: poll_exit
+2024-04-04 11:11:29,523 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: poll_exit
+2024-04-04 11:11:29,876 INFO    Thread-35 :1341 [upload_job.py:push():143] Uploaded file /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/output.log
+2024-04-04 11:11:29,958 INFO    Thread-36 :1341 [upload_job.py:push():143] Uploaded file /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/files/config.yaml
+2024-04-04 11:11:30,159 INFO    Thread-12 :1341 [sender.py:transition_state():463] send defer: 9
+2024-04-04 11:11:30,159 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: defer
+2024-04-04 11:11:30,159 INFO    HandlerThread:1341 [handler.py:handle_request_defer():161] handle defer: 9
+2024-04-04 11:11:30,159 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: defer
+2024-04-04 11:11:30,160 INFO    SenderThread:1341 [sender.py:send_request_defer():459] handle sender defer: 9
+2024-04-04 11:11:30,160 INFO    SenderThread:1341 [file_pusher.py:join():173] waiting for file pusher
+2024-04-04 11:11:30,160 INFO    SenderThread:1341 [sender.py:transition_state():463] send defer: 10
+2024-04-04 11:11:30,160 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: defer
+2024-04-04 11:11:30,160 INFO    HandlerThread:1341 [handler.py:handle_request_defer():161] handle defer: 10
+2024-04-04 11:11:30,160 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: defer
+2024-04-04 11:11:30,160 INFO    SenderThread:1341 [sender.py:send_request_defer():459] handle sender defer: 10
+2024-04-04 11:11:30,523 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: poll_exit
+2024-04-04 11:11:30,542 INFO    SenderThread:1341 [sender.py:transition_state():463] send defer: 11
+2024-04-04 11:11:30,543 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: poll_exit
+2024-04-04 11:11:30,543 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: defer
+2024-04-04 11:11:30,543 INFO    HandlerThread:1341 [handler.py:handle_request_defer():161] handle defer: 11
+2024-04-04 11:11:30,544 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: defer
+2024-04-04 11:11:30,544 INFO    SenderThread:1341 [sender.py:send_request_defer():459] handle sender defer: 11
+2024-04-04 11:11:30,544 INFO    SenderThread:1341 [sender.py:transition_state():463] send defer: 12
+2024-04-04 11:11:30,544 DEBUG   SenderThread:1341 [sender.py:send():303] send: final
+2024-04-04 11:11:30,544 DEBUG   SenderThread:1341 [sender.py:send():303] send: footer
+2024-04-04 11:11:30,544 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: defer
+2024-04-04 11:11:30,545 INFO    HandlerThread:1341 [handler.py:handle_request_defer():161] handle defer: 12
+2024-04-04 11:11:30,545 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: defer
+2024-04-04 11:11:30,545 INFO    SenderThread:1341 [sender.py:send_request_defer():459] handle sender defer: 12
+2024-04-04 11:11:30,546 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: poll_exit
+2024-04-04 11:11:30,546 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: poll_exit
+2024-04-04 11:11:30,546 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: server_info
+2024-04-04 11:11:30,546 DEBUG   SenderThread:1341 [sender.py:send_request():317] send_request: server_info
+2024-04-04 11:11:30,548 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: get_summary
+2024-04-04 11:11:30,548 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: sampled_history
+2024-04-04 11:11:30,700 DEBUG   HandlerThread:1341 [handler.py:handle_request():138] handle_request: shutdown
+2024-04-04 11:11:30,700 INFO    HandlerThread:1341 [handler.py:finish():814] shutting down handler
+2024-04-04 11:11:31,544 INFO    WriterThread:1341 [datastore.py:close():279] close: /notebooks/lora/diff_lora/text_to_image/wandb/run-20240404_110800-4j5lrrwi/run-4j5lrrwi.wandb
+2024-04-04 11:11:31,699 INFO    SenderThread:1341 [sender.py:finish():1331] shutting down sender
+2024-04-04 11:11:31,699 INFO    SenderThread:1341 [file_pusher.py:finish():168] shutting down file pusher
+2024-04-04 11:11:31,699 INFO    SenderThread:1341 [file_pusher.py:join():173] waiting for file pusher
+2024-04-04 11:11:40,705 INFO    MainThread:1341 [internal.py:handle_exit():78] Internal process exited

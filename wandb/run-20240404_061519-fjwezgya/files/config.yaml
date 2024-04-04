@@ -1,0 +1,195 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.4
+    framework: huggingface
+    huggingface_version: 4.39.3
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.16
+    start_time: 1712211319.784646
+    t:
+      1:
+      - 1
+      - 2
+      - 3
+      - 11
+      - 12
+      - 41
+      - 45
+      - 49
+      - 51
+      - 55
+      - 71
+      2:
+      - 1
+      - 2
+      - 3
+      - 11
+      - 12
+      - 41
+      - 45
+      - 49
+      - 51
+      - 55
+      - 71
+      3:
+      - 2
+      - 23
+      4: 3.9.16
+      5: 0.13.4
+      6: 4.39.3
+      8:
+      - 5
+adam_beta1:
+  desc: null
+  value: 0.9
+adam_beta2:
+  desc: null
+  value: 0.999
+adam_epsilon:
+  desc: null
+  value: 1.0e-08
+adam_weight_decay:
+  desc: null
+  value: 0.01
+allow_tf32:
+  desc: null
+  value: false
+cache_dir:
+  desc: null
+  value: null
+caption_column:
+  desc: null
+  value: text
+center_crop:
+  desc: null
+  value: false
+checkpointing_steps:
+  desc: null
+  value: 500
+checkpoints_total_limit:
+  desc: null
+  value: null
+dataloader_num_workers:
+  desc: null
+  value: 0
+dataset_config_name:
+  desc: null
+  value: null
+dataset_name:
+  desc: null
+  value: YaYaB/onepiece-blip-captions
+enable_xformers_memory_efficient_attention:
+  desc: null
+  value: false
+gradient_accumulation_steps:
+  desc: null
+  value: 1
+gradient_checkpointing:
+  desc: null
+  value: false
+hub_model_id:
+  desc: null
+  value: null
+hub_token:
+  desc: null
+  value: null
+image_column:
+  desc: null
+  value: image
+learning_rate:
+  desc: null
+  value: 0.0001
+local_rank:
+  desc: null
+  value: -1
+logging_dir:
+  desc: null
+  value: logs
+lr_scheduler:
+  desc: null
+  value: constant
+lr_warmup_steps:
+  desc: null
+  value: 0
+max_grad_norm:
+  desc: null
+  value: 1.0
+max_train_samples:
+  desc: null
+  value: 100
+max_train_steps:
+  desc: null
+  value: 13
+mixed_precision:
+  desc: null
+  value: null
+noise_offset:
+  desc: null
+  value: 0
+num_train_epochs:
+  desc: null
+  value: 1
+num_validation_images:
+  desc: null
+  value: 4
+output_dir:
+  desc: null
+  value: test
+prediction_type:
+  desc: null
+  value: null
+pretrained_model_name_or_path:
+  desc: null
+  value: CompVis/stable-diffusion-v1-4
+push_to_hub:
+  desc: null
+  value: false
+random_flip:
+  desc: null
+  value: true
+rank:
+  desc: null
+  value: 4
+report_to:
+  desc: null
+  value: wandb
+resolution:
+  desc: null
+  value: 512
+resume_from_checkpoint:
+  desc: null
+  value: null
+revision:
+  desc: null
+  value: null
+scale_lr:
+  desc: null
+  value: false
+seed:
+  desc: null
+  value: 42
+snr_gamma:
+  desc: null
+  value: null
+train_batch_size:
+  desc: null
+  value: 8
+train_data_dir:
+  desc: null
+  value: null
+use_8bit_adam:
+  desc: null
+  value: false
+validation_epochs:
+  desc: null
+  value: 1
+validation_prompt:
+  desc: null
+  value: a women in pink dress
+variant:
+  desc: null
+  value: null

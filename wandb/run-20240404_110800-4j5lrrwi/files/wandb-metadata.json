@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.19.0-45-generic-x86_64-with-glibc2.31",
+    "python": "3.9.16",
+    "heartbeatAt": "2024-04-04T11:08:01.517845",
+    "startedAt": "2024-04-04T11:08:00.870463",
+    "docker": null,
+    "gpu": "NVIDIA RTX A6000",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/notebooks/lora/diff_lora/text_to_image/train_diff_lora.py",
+    "codePath": "lora/diff_lora/text_to_image/train_diff_lora.py",
+    "git": {
+        "remote": "https://github.com/huggingface/transformers.git",
+        "commit": "8876ce8a5f7d0dd3a1a4fbb0acc8727dd0eea686"
+    },
+    "email": null,
+    "root": "/notebooks",
+    "host": "nwowq2r1g1",
+    "username": "root",
+    "executable": "/usr/local/bin/python3"
+}

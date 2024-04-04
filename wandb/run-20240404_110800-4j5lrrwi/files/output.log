@@ -1,0 +1,101 @@
+04/04/2024 11:08:01 - INFO - __main__ - ***** Running training *****
+04/04/2024 11:08:01 - INFO - __main__ -   Num examples = 800
+04/04/2024 11:08:01 - INFO - __main__ -   Num Epochs = 1
+04/04/2024 11:08:01 - INFO - __main__ -   Instantaneous batch size per device = 16
+04/04/2024 11:08:01 - INFO - __main__ -   Total train batch size (w. parallel, distributed & accumulation) = 16
+04/04/2024 11:08:01 - INFO - __main__ -   Gradient Accumulation steps = 1
+04/04/2024 11:08:01 - INFO - __main__ -   Total optimization steps = 50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [03:00<00:00,  3.19s/it, lr=0.0001, step_loss=0.161]04/04/2024 11:11:01 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: a women in pink dress.
+{'requires_safety_checker', 'image_encoder'} was not found in config. Values will be initialized to default values.
+                                                                                                                                                                                                                   Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.                                                                      | 0/7 [00:00<?, ?it/s]
+                                                                                                                                                                                                                   {'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.                                                                                       | 2/7 [00:00<00:01,  4.07it/s]
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                   {'latents_std', 'force_upcast', 'norm_num_groups', 'latents_mean'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.█████████████████████████████████████▎                                                             | 4/7 [00:00<00:00,  5.68it/s]
+Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  8.25it/s]
+Model weights saved in testing/pytorch_lora_weights.safetensors██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00, 10.33it/s]
+{'requires_safety_checker', 'image_encoder'} was not found in config. Values will be initialized to default values.
+                                                                                                                                                                                                                   Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.                                                                      | 0/7 [00:00<?, ?it/s]
+                                                                                                                                                                                                                   {'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.                                                                                       | 2/7 [00:00<00:00,  6.15it/s]
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                   {'latents_std', 'force_upcast', 'norm_num_groups', 'latents_mean'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.█████████████████████████████████████▎                                                             | 4/7 [00:00<00:00,  7.08it/s]
+{'transformer_layers_per_block', 'attention_type', 'encoder_hid_dim', 'resnet_time_scale_shift', 'upcast_attention', 'conv_in_kernel', 'dual_cross_attention', 'resnet_out_scale_factor', 'conv_out_kernel', 'num_class_embeds', 'class_embeddings_concat', 'mid_block_type', 'time_embedding_act_fn', 'addition_time_embed_dim', 'addition_embed_type_num_heads', 'num_attention_heads', 'cross_attention_norm', 'projection_class_embeddings_input_dim', 'resnet_skip_time_act', 'encoder_hid_dim_type', 'time_cond_proj_dim', 'time_embedding_dim', 'use_linear_projection', 'class_embed_type', 'time_embedding_type', 'timestep_post_act', 'reverse_transformer_layers_per_block', 'mid_block_only_cross_attention', 'dropout', 'addition_embed_type', 'only_cross_attention'} was not found in config. Values will be initialized to default values.
+Loaded unet as UNet2DConditionModel from `unet` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                   Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  8.81it/s]
+Loading unet.
+ 97%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏     | 29/30 [00:01<00:00, 16.57it/s]
+ 97%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏     | 29/30 [00:01<00:00, 16.66it/s]
+ 97%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏     | 29/30 [00:02<00:00, 16.48it/s]
+
+ 97%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏     | 29/30 [00:01<00:00, 15.99it/s]
