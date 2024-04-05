@@ -1,0 +1,55 @@
+04/04/2024 21:33:54 - INFO - __main__ - ***** Running training *****
+04/04/2024 21:33:54 - INFO - __main__ -   Num examples = 800
+04/04/2024 21:33:54 - INFO - __main__ -   Num Epochs = 10
+04/04/2024 21:33:54 - INFO - __main__ -   Instantaneous batch size per device = 32
+04/04/2024 21:33:54 - INFO - __main__ -   Total train batch size (w. parallel, distributed & accumulation) = 32
+04/04/2024 21:33:54 - INFO - __main__ -   Gradient Accumulation steps = 1
+04/04/2024 21:33:54 - INFO - __main__ -   Total optimization steps = 250
+Steps:   0%|                                                                                                                                                                                      | 0/250 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/notebooks/lora/diff_lora/text_to_image/train_diff_lora.py", line 701, in <module>
+    main()
+  File "/notebooks/lora/diff_lora/text_to_image/train_diff_lora.py", line 489, in main
+    model_pred = unet(noisy_latents, timesteps, encoder_hidden_states, return_dict=False)[0]
+  File "/usr/local/lib/python3.9/dist-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/diffusers/models/unets/unet_2d_condition.py", line 1281, in forward
+    sample = upsample_block(
+  File "/usr/local/lib/python3.9/dist-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/diffusers/models/unets/unet_2d_blocks.py", line 2542, in forward
+    hidden_states = attn(
+  File "/usr/local/lib/python3.9/dist-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/diffusers/models/transformers/transformer_2d.py", line 397, in forward
+    hidden_states = block(
+  File "/usr/local/lib/python3.9/dist-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/diffusers/models/attention.py", line 392, in forward
+    ff_output = self.ff(norm_hidden_states)
+  File "/usr/local/lib/python3.9/dist-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/diffusers/models/attention.py", line 664, in forward
+    hidden_states = module(hidden_states)
+  File "/usr/local/lib/python3.9/dist-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/diffusers/models/activations.py", line 102, in forward
+    hidden_states, gate = self.proj(hidden_states).chunk(2, dim=-1)
+  File "/usr/local/lib/python3.9/dist-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.9/dist-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.25 GiB. GPU 0 has a total capacity of 47.54 GiB of which 1.07 GiB is free. Process 3092624 has 46.47 GiB memory in use. Of the allocated memory 44.50 GiB is allocated by PyTorch, and 559.07 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

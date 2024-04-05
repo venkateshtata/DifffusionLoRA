@@ -1,0 +1,760 @@
+04/04/2024 21:34:43 - INFO - __main__ - ***** Running training *****
+04/04/2024 21:34:43 - INFO - __main__ -   Num examples = 800
+04/04/2024 21:34:43 - INFO - __main__ -   Num Epochs = 10
+04/04/2024 21:34:43 - INFO - __main__ -   Instantaneous batch size per device = 16
+04/04/2024 21:34:43 - INFO - __main__ -   Total train batch size (w. parallel, distributed & accumulation) = 16
+04/04/2024 21:34:43 - INFO - __main__ -   Gradient Accumulation steps = 1
+04/04/2024 21:34:43 - INFO - __main__ -   Total optimization steps = 500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  10%|██████████████▌                                                                                                                                  | 50/500 [02:55<24:45,  3.30s/it, lr=0.0001, step_loss=0.155]04/04/2024 21:37:38 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: a women in pink dress.
+model_index.json: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 541/541 [00:00<00:00, 367kB/s]
+safety_checker/config.json: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4.56k/4.56k [00:00<00:00, 342kB/s]
+(…)kpoints/scheduler_config-checkpoint.json: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 209/209 [00:00<00:00, 28.9kB/s]
+(…)ature_extractor/preprocessor_config.json: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 342/342 [00:00<00:00, 56.3kB/s]
+(…)kpoints/scheduler_config-checkpoint.json:   0%|                                                                                                                                              | 0.00/209 [00:00<?, ?B/s]
+Fetching 14 files:   7%|███████████▋                                                                                                                                                       | 1/14 [00:00<00:02,  5.38it/s]
+
+
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.                                                                        | 4/14 [00:05<00:15,  1.52s/it]
+                                                                                                                                                                                                                          Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.                                                                                 | 0/7 [00:00<?, ?it/s]
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                          Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...:  43%|████████████████████████████████████████████████████████████████▋                                                                                      | 3/7 [00:00<00:00,  5.31it/s]{'latents_std', 'force_upcast', 'latents_mean', 'norm_num_groups'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.█████████████████████████████████████████▎                                                                | 4/7 [00:00<00:00,  4.28it/s]
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  7.50it/s]
+Potential NSFW content was detected in one or more images. A black image will be returned instead. Try again with a different prompt and/or seed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  20%|████████████████████████████▌                                                                                                                  | 100/500 [05:58<22:36,  3.39s/it, lr=0.0001, step_loss=0.0991]04/04/2024 21:40:41 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: a women in pink dress.
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                                                                                                                                                          Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.                                                                                 | 0/7 [00:00<?, ?it/s]
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                          Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...:  43%|████████████████████████████████████████████████████████████████▋                                                                                      | 3/7 [00:00<00:00,  6.58it/s]{'latents_std', 'force_upcast', 'latents_mean', 'norm_num_groups'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.█████████████████████████████████████████▎                                                                | 4/7 [00:00<00:00,  5.11it/s]
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  8.95it/s]
+Potential NSFW content was detected in one or more images. A black image will be returned instead. Try again with a different prompt and/or seed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  30%|███████████████████████████████████████████▏                                                                                                    | 150/500 [08:58<19:03,  3.27s/it, lr=0.0001, step_loss=0.133]04/04/2024 21:43:41 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: a women in pink dress.
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                                                                                                                                                          Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.                                                                                 | 0/7 [00:00<?, ?it/s]
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                          Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...:  43%|████████████████████████████████████████████████████████████████▋                                                                                      | 3/7 [00:00<00:00,  6.85it/s]{'latents_std', 'force_upcast', 'latents_mean', 'norm_num_groups'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.█████████████████████████████████████████▎                                                                | 4/7 [00:00<00:00,  5.20it/s]
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  9.11it/s]
+Potential NSFW content was detected in one or more images. A black image will be returned instead. Try again with a different prompt and/or seed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  40%|█████████████████████████████████████████████████████████▌                                                                                      | 200/500 [12:00<16:20,  3.27s/it, lr=0.0001, step_loss=0.123]04/04/2024 21:46:44 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: a women in pink dress.
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                                                                                                                                                          Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.                                                                                 | 0/7 [00:00<?, ?it/s]
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                          Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...:  43%|████████████████████████████████████████████████████████████████▋                                                                                      | 3/7 [00:00<00:00,  6.90it/s]{'latents_std', 'force_upcast', 'latents_mean', 'norm_num_groups'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.█████████████████████████████████████████▎                                                                | 4/7 [00:00<00:00,  5.20it/s]
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  9.13it/s]
+Potential NSFW content was detected in one or more images. A black image will be returned instead. Try again with a different prompt and/or seed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  50%|████████████████████████████████████████████████████████████████████████                                                                        | 250/500 [15:04<13:00,  3.12s/it, lr=0.0001, step_loss=0.109]04/04/2024 21:49:48 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: a women in pink dress.
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                                                                                                                                                          Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.                                                                                 | 0/7 [00:00<?, ?it/s]
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                          Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...:  43%|████████████████████████████████████████████████████████████████▋                                                                                      | 3/7 [00:00<00:00,  6.60it/s]{'latents_std', 'force_upcast', 'latents_mean', 'norm_num_groups'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.█████████████████████████████████████████▎                                                                | 4/7 [00:00<00:00,  5.01it/s]
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  8.80it/s]
+Potential NSFW content was detected in one or more images. A black image will be returned instead. Try again with a different prompt and/or seed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  60%|█████████████████████████████████████████████████████████████████████████████████████▊                                                         | 300/500 [18:04<10:55,  3.28s/it, lr=0.0001, step_loss=0.0704]04/04/2024 21:52:47 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: a women in pink dress.
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                                                                                                                                                          Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.                                                                                 | 0/7 [00:00<?, ?it/s]
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...:  43%|████████████████████████████████████████████████████████████████▋                                                                                      | 3/7 [00:00<00:00,  6.98it/s]{'latents_std', 'force_upcast', 'latents_mean', 'norm_num_groups'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.█████████████████████████████████████████▎                                                                | 4/7 [00:00<00:00,  5.31it/s]
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  9.31it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  70%|████████████████████████████████████████████████████████████████████████████████████████████████████▊                                           | 350/500 [21:07<08:17,  3.32s/it, lr=0.0001, step_loss=0.102]04/04/2024 21:55:51 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: a women in pink dress.
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                                                                                                                                                          Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.                                                                                 | 0/7 [00:00<?, ?it/s]
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                          Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...:  43%|████████████████████████████████████████████████████████████████▋                                                                                      | 3/7 [00:00<00:00,  6.47it/s]{'latents_std', 'force_upcast', 'latents_mean', 'norm_num_groups'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.█████████████████████████████████████████▎                                                                | 4/7 [00:00<00:00,  4.80it/s]
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  8.49it/s]
+Potential NSFW content was detected in one or more images. A black image will be returned instead. Try again with a different prompt and/or seed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  80%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                            | 400/500 [24:09<05:23,  3.23s/it, lr=0.0001, step_loss=0.157]04/04/2024 21:58:53 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: a women in pink dress.
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                                                                                                                                                          Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.                                                                                 | 0/7 [00:00<?, ?it/s]
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                          Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...:  43%|████████████████████████████████████████████████████████████████▋                                                                                      | 3/7 [00:00<00:00,  6.93it/s]{'latents_std', 'force_upcast', 'latents_mean', 'norm_num_groups'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.█████████████████████████████████████████▎                                                                | 4/7 [00:00<00:00,  5.22it/s]
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  9.13it/s]
+Potential NSFW content was detected in one or more images. A black image will be returned instead. Try again with a different prompt and/or seed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌              | 450/500 [27:07<02:43,  3.27s/it, lr=0.0001, step_loss=0.142]04/04/2024 22:01:51 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: a women in pink dress.
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                                                                                                                                                          Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.                                                                                 | 0/7 [00:00<?, ?it/s]
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                          Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...:  43%|████████████████████████████████████████████████████████████████▋                                                                                      | 3/7 [00:00<00:00,  6.70it/s]{'latents_std', 'force_upcast', 'latents_mean', 'norm_num_groups'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.█████████████████████████████████████████▎                                                                | 4/7 [00:00<00:00,  5.02it/s]
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  8.82it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 500/500 [30:03<00:00,  3.21s/it, lr=0.0001, step_loss=0.0961]04/04/2024 22:04:47 - INFO - accelerate.accelerator - Saving current state to onepiece/checkpoint-500
+04/04/2024 22:04:52 - INFO - accelerate.checkpointing - Model weights saved in onepiece/checkpoint-500/model.safetensors
+04/04/2024 22:04:52 - INFO - accelerate.checkpointing - Optimizer state saved in onepiece/checkpoint-500/optimizer.bin
+04/04/2024 22:04:52 - INFO - accelerate.checkpointing - Scheduler state saved in onepiece/checkpoint-500/scheduler.bin
+04/04/2024 22:04:52 - INFO - accelerate.checkpointing - Sampler state for dataloader 0 saved in onepiece/checkpoint-500/sampler.bin
+04/04/2024 22:04:52 - INFO - accelerate.checkpointing - Random states saved in onepiece/checkpoint-500/random_states_0.pkl
+Model weights saved in onepiece/checkpoint-500/pytorch_lora_weights.safetensors
+04/04/2024 22:04:52 - INFO - __main__ - Saved state to onepiece/checkpoint-500
+Steps: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 500/500 [30:08<00:00,  3.21s/it, lr=0.0001, step_loss=0.234]04/04/2024 22:04:52 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: a women in pink dress.
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                                                                                                                                                          Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.                                                                                 | 0/7 [00:00<?, ?it/s]
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                          Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...:  43%|████████████████████████████████████████████████████████████████▋                                                                                      | 3/7 [00:00<00:00,  6.61it/s]{'latents_std', 'force_upcast', 'latents_mean', 'norm_num_groups'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.█████████████████████████████████████████▎                                                                | 4/7 [00:00<00:00,  5.23it/s]
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  9.13it/s]
+Model weights saved in onepiece/pytorch_lora_weights.safetensors
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                                                                                                                                                          Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.                                                                                 | 0/7 [00:00<?, ?it/s]
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+{'cross_attention_norm', 'upcast_attention', 'use_linear_projection', 'dropout', 'timestep_post_act', 'time_cond_proj_dim', 'transformer_layers_per_block', 'time_embedding_type', 'time_embedding_act_fn', 'time_embedding_dim', 'addition_time_embed_dim', 'conv_out_kernel', 'encoder_hid_dim_type', 'conv_in_kernel', 'projection_class_embeddings_input_dim', 'mid_block_only_cross_attention', 'only_cross_attention', 'resnet_skip_time_act', 'dual_cross_attention', 'attention_type', 'reverse_transformer_layers_per_block', 'num_attention_heads', 'class_embed_type', 'addition_embed_type', 'resnet_time_scale_shift', 'mid_block_type', 'encoder_hid_dim', 'class_embeddings_concat', 'resnet_out_scale_factor', 'addition_embed_type_num_heads', 'num_class_embeds'} was not found in config. Values will be initialized to default values.
+Loaded unet as UNet2DConditionModel from `unet` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                          {'latents_std', 'force_upcast', 'latents_mean', 'norm_num_groups'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.██████████████████████████████████████████████████████████████▊                                           | 5/7 [00:00<00:00,  6.67it/s]
+{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  9.45it/s]
+Loading unet.
+ 97%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉      | 29/30 [00:01<00:00, 17.00it/s]
+ 97%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉      | 29/30 [00:01<00:00, 16.73it/s]
+ 97%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉      | 29/30 [00:01<00:00, 16.99it/s]
+
+ 97%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉      | 29/30 [00:01<00:00, 16.91it/s]

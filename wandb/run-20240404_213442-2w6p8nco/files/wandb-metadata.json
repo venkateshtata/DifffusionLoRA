@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.19.0-45-generic-x86_64-with-glibc2.31",
+    "python": "3.9.16",
+    "heartbeatAt": "2024-04-04T21:34:43.539361",
+    "startedAt": "2024-04-04T21:34:42.900820",
+    "docker": null,
+    "gpu": "NVIDIA RTX A6000",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/notebooks/lora/diff_lora/text_to_image/train_diff_lora.py",
+    "codePath": "train_diff_lora.py",
+    "git": {
+        "remote": "https://github.com/venkateshtata/DifffusionLoRA.git",
+        "commit": "67445b6ea535dcde2f89a80454c604d0af563e80"
+    },
+    "email": null,
+    "root": "/notebooks/lora/diff_lora/text_to_image",
+    "host": "ndf56e5swm",
+    "username": "root",
+    "executable": "/usr/local/bin/python"
+}

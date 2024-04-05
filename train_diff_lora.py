@@ -40,58 +40,17 @@ check_min_version("0.28.0.dev0")
 
 logger = get_logger(__name__, log_level="INFO")
 
-
-# def save_model_card(
-#     repo_id: str,
-#     images: list = None,
-#     base_model: str = None,
-#     dataset_name: str = None,
-#     repo_folder: str = None,
-# ):
-#     img_str = ""
-#     if images is not None:
-#         for i, image in enumerate(images):
-#             image.save(os.path.join(repo_folder, f"image_{i}.png"))
-#             img_str += f"![img_{i}](./image_{i}.png)\n"
-
-#     model_description = f"""
-# # LoRA text2image fine-tuning - {repo_id}
-# These are LoRA adaption weights for {base_model}. The weights were fine-tuned on the {dataset_name} dataset. You can find some example images in the following. \n
-# {img_str}
-# """
-
-#     model_card = load_or_create_model_card(
-#         repo_id_or_path=repo_id,
-#         from_training=True,
-#         license="creativeml-openrail-m",
-#         base_model=base_model,
-#         model_description=model_description,
-#         inference=True,
-#     )
-
-#     tags = [
-#         "stable-diffusion",
-#         "stable-diffusion-diffusers",
-#         "text-to-image",
-#         "diffusers",
-#         "diffusers-training",
-#         "lora",
-#     ]
-#     model_card = populate_model_card(model_card, tags=tags)
-
-#     model_card.save(os.path.join(repo_folder, "README.md"))
-
 run_config = {
-"dataset_name" : "YaYaB/onepiece-blip-captions",
+"dataset_name" : "rvorias/realms_adventurers",
 "image_column" : "image",
-"caption_column" : "text",
+"caption_column" : "caption",
 "max_train_samples" : 800,
-"output_dir" : "testing",
+"output_dir" : "realms",
 "checkpointing_steps" : 500,
-"rank" : 4,
-"validation_prompt" : "a women in pink dress",
+"rank" : 8,
+"validation_prompt" : "a male orc warlock with Horns, long black hair, green skin, wearing Pauldrons with spikes, a leather amour vest, with an amulet, a sword, Dark, firelit blacksmith shop, medium, frontal",
 "train_batch_size" : 16,
-"num_train_epochs" : 1,
+"num_train_epochs" : 10,
 
 "pretrained_model_name_or_path" : "CompVis/stable-diffusion-v1-4",
 "revision" : None,
@@ -129,31 +88,25 @@ run_config = {
 "mixed_precision" : "no",
 "report_to" : "wandb",
 "local_rank" : -1,
-"checkpoints_total_limit" : None,
+"checkpoints_total_limit" : 3,
 "resume_from_checkpoint" : None,
 "enable_xformers_memory_efficient_attention" : False,
 "noise_offset" : 0
 }
 
 DATASET_NAME_MAPPING = {
-    "lambdalabs/pokemon-blip-captions": ("image", "text"),
+    run_config['dataset_name']: (run_config['image_column'], run_config['caption_column']),
 }
 
 
 def main():
     global run_config
-    print("run_config: ", run_config['mixed_precision'])
-    # args = parse_args()
-    if run_config['report_to'] == "wandb" and run_config['hub_token'] is not None:
-        raise ValueError(
-            "You cannot use both --report_to=wandb and --hub_token due to a security risk of exposing your token."
-            " Please use `huggingface-cli login` to authenticate with the Hub."
-        )
 
     logging_dir = Path(run_config['output_dir'], run_config['logging_dir'])
 
     accelerator_project_config = ProjectConfiguration(project_dir=run_config['output_dir'], logging_dir=logging_dir)
-
+    
+    #Initiating Accelerator
     accelerator = Accelerator(
         gradient_accumulation_steps=run_config['gradient_accumulation_steps'],
         mixed_precision=run_config['mixed_precision'],
@@ -161,7 +114,7 @@ def main():
         project_config=accelerator_project_config,
     )
 
-    # Disable AMP for MPS.
+    # Disable AMP for MPS, if detects Apple Silicon, disables few native functions
     if torch.backends.mps.is_available():
         accelerator.native_amp = False
 
@@ -176,6 +129,8 @@ def main():
         datefmt="%m/%d/%Y %H:%M:%S",
         level=logging.INFO,
     )
+    
+    # Setting logging options according to the system being distributed or local.
     logger.info(accelerator.state, main_process_only=False)
     if accelerator.is_local_main_process:
         datasets.utils.logging.set_verbosity_warning()
@@ -195,10 +150,11 @@ def main():
         if run_config['output_dir'] is not None:
             os.makedirs(run_config['output_dir'], exist_ok=True)
 
-        if run_config['push_to_hub']:
-            repo_id = create_repo(
-                repo_id=run_config['hub_model_id'] or Path(run_config['output_dir']).name, exist_ok=True, token=run_config['hub_token']
-            ).repo_id
+        # if run_config['push_to_hub']:
+        #     repo_id = create_repo(
+        #         repo_id=run_config['hub_model_id'] or Path(run_config['output_dir']).name, exist_ok=True, token=run_config['hub_token']
+        #     ).repo_id
+
     # Load scheduler, tokenizer and models.
     noise_scheduler = DDPMScheduler.from_pretrained(run_config['pretrained_model_name_or_path'], subfolder="scheduler")
     tokenizer = CLIPTokenizer.from_pretrained(
@@ -213,6 +169,7 @@ def main():
     unet = UNet2DConditionModel.from_pretrained(
         run_config['pretrained_model_name_or_path'], subfolder="unet", revision=run_config['revision'], variant=run_config['variant']
     )
+
     # freeze parameters of models to save more memory
     unet.requires_grad_(False)
     vae.requires_grad_(False)
@@ -385,7 +342,8 @@ def main():
         examples["pixel_values"] = [train_transforms(image) for image in images]
         examples["input_ids"] = tokenize_captions(examples)
         return examples
-
+    
+    # Below condition makes sure the code snippet runs on the main machine in context of distributed training.
     with accelerator.main_process_first():
         if run_config['max_train_samples'] is not None:
             dataset["train"] = dataset["train"].shuffle(seed=run_config['seed']).select(range(run_config['max_train_samples']))
@@ -676,20 +634,20 @@ def main():
             safe_serialization=True,
         )
 
-        if run_config['push_to_hub']:
-            save_model_card(
-                repo_id,
-                images=images,
-                base_model=run_config['pretrained_model_name_or_path'],
-                dataset_name=run_config['dataset_name'],
-                repo_folder=run_config['output_dir'],
-            )
-            upload_folder(
-                repo_id=repo_id,
-                folder_path=run_config['output_dir'],
-                commit_message="End of training",
-                ignore_patterns=["step_*", "epoch_*"],
-            )
+        # if run_config['push_to_hub']:
+        #     save_model_card(
+        #         repo_id,
+        #         images=images,
+        #         base_model=run_config['pretrained_model_name_or_path'],
+        #         dataset_name=run_config['dataset_name'],
+        #         repo_folder=run_config['output_dir'],
+        #     )
+        #     upload_folder(
+        #         repo_id=repo_id,
+        #         folder_path=run_config['output_dir'],
+        #         commit_message="End of training",
+        #         ignore_patterns=["step_*", "epoch_*"],
+        #     )
 
         # Final inference
         # Load previous pipeline

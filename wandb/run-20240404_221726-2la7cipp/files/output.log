@@ -1,0 +1,780 @@
+04/04/2024 22:17:26 - INFO - __main__ - ***** Running training *****
+04/04/2024 22:17:26 - INFO - __main__ -   Num examples = 800
+04/04/2024 22:17:26 - INFO - __main__ -   Num Epochs = 10
+04/04/2024 22:17:26 - INFO - __main__ -   Instantaneous batch size per device = 16
+04/04/2024 22:17:26 - INFO - __main__ -   Total train batch size (w. parallel, distributed & accumulation) = 16
+04/04/2024 22:17:26 - INFO - __main__ -   Gradient Accumulation steps = 1
+04/04/2024 22:17:26 - INFO - __main__ -   Total optimization steps = 500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  10%|██████████████▌                                                                                                                                  | 50/500 [03:20<26:55,  3.59s/it, lr=0.0001, step_loss=0.141]04/04/2024 22:20:47 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: a male orc warlock with Horns, long black hair, green skin, wearing Pauldrons with spikes, a leather amour vest, with an amulet, a sword, Dark, firelit blacksmith shop, medium, frontal.
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                                                                                                                                                          {'force_upcast', 'norm_num_groups', 'latents_std', 'latents_mean'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.                                                                                                                  | 0/7 [00:00<?, ?it/s]
+                                                                                                                                                                                                                          Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...:  14%|█████████████████████▌                                                                                                                                 | 1/7 [00:00<00:01,  5.31it/s]{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.                                                                                              | 2/7 [00:00<00:01,  3.50it/s]
+Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                          Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  8.07it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  20%|████████████████████████████▊                                                                                                                   | 100/500 [06:45<24:21,  3.65s/it, lr=0.0001, step_loss=0.204]04/04/2024 22:24:12 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: a male orc warlock with Horns, long black hair, green skin, wearing Pauldrons with spikes, a leather amour vest, with an amulet, a sword, Dark, firelit blacksmith shop, medium, frontal.
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                                                                                                                                                          {'force_upcast', 'norm_num_groups', 'latents_std', 'latents_mean'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.                                                                                                                  | 0/7 [00:00<?, ?it/s]
+                                                                                                                                                                                                                          Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...:  14%|█████████████████████▌                                                                                                                                 | 1/7 [00:00<00:01,  5.72it/s]{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.                                                                                              | 2/7 [00:00<00:01,  4.23it/s]
+Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                          Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  9.15it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  30%|███████████████████████████████████████████▏                                                                                                    | 150/500 [10:12<22:36,  3.88s/it, lr=0.0001, step_loss=0.195]04/04/2024 22:27:39 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: a male orc warlock with Horns, long black hair, green skin, wearing Pauldrons with spikes, a leather amour vest, with an amulet, a sword, Dark, firelit blacksmith shop, medium, frontal.
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                                                                                                                                                          {'force_upcast', 'norm_num_groups', 'latents_std', 'latents_mean'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.                                                                                                                  | 0/7 [00:00<?, ?it/s]
+                                                                                                                                                                                                                          Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...:  14%|█████████████████████▌                                                                                                                                 | 1/7 [00:00<00:01,  5.70it/s]{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.                                                                                              | 2/7 [00:00<00:01,  4.20it/s]
+Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                          Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  9.18it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  40%|█████████████████████████████████████████████████████████▌                                                                                      | 200/500 [13:38<18:30,  3.70s/it, lr=0.0001, step_loss=0.137]04/04/2024 22:31:05 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: a male orc warlock with Horns, long black hair, green skin, wearing Pauldrons with spikes, a leather amour vest, with an amulet, a sword, Dark, firelit blacksmith shop, medium, frontal.
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                                                                                                                                                          {'force_upcast', 'norm_num_groups', 'latents_std', 'latents_mean'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.                                                                                                                  | 0/7 [00:00<?, ?it/s]
+                                                                                                                                                                                                                          Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...:  14%|█████████████████████▌                                                                                                                                 | 1/7 [00:00<00:01,  5.68it/s]{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.                                                                                              | 2/7 [00:00<00:01,  3.90it/s]
+Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                          Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  8.59it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  50%|████████████████████████████████████████████████████████████████████████                                                                        | 250/500 [17:01<14:43,  3.53s/it, lr=0.0001, step_loss=0.168]04/04/2024 22:34:27 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: a male orc warlock with Horns, long black hair, green skin, wearing Pauldrons with spikes, a leather amour vest, with an amulet, a sword, Dark, firelit blacksmith shop, medium, frontal.
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                                                                                                                                                          {'force_upcast', 'norm_num_groups', 'latents_std', 'latents_mean'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.                                                                                                                  | 0/7 [00:00<?, ?it/s]
+                                                                                                                                                                                                                          Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...:  14%|█████████████████████▌                                                                                                                                 | 1/7 [00:00<00:01,  5.67it/s]{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.                                                                                              | 2/7 [00:00<00:01,  4.11it/s]
+Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                          Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  9.25it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  60%|██████████████████████████████████████████████████████████████████████████████████████▍                                                         | 300/500 [20:29<11:42,  3.51s/it, lr=0.0001, step_loss=0.138]04/04/2024 22:37:56 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: a male orc warlock with Horns, long black hair, green skin, wearing Pauldrons with spikes, a leather amour vest, with an amulet, a sword, Dark, firelit blacksmith shop, medium, frontal.
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                                                                                                                                                          {'force_upcast', 'norm_num_groups', 'latents_std', 'latents_mean'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.                                                                                                                  | 0/7 [00:00<?, ?it/s]
+                                                                                                                                                                                                                          Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...:  14%|█████████████████████▌                                                                                                                                 | 1/7 [00:00<00:01,  5.74it/s]{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.                                                                                              | 2/7 [00:00<00:01,  3.90it/s]
+Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                          Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  8.59it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  70%|████████████████████████████████████████████████████████████████████████████████████████████████████▊                                           | 350/500 [23:46<08:52,  3.55s/it, lr=0.0001, step_loss=0.186]04/04/2024 22:41:13 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: a male orc warlock with Horns, long black hair, green skin, wearing Pauldrons with spikes, a leather amour vest, with an amulet, a sword, Dark, firelit blacksmith shop, medium, frontal.
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                                                                                                                                                          {'force_upcast', 'norm_num_groups', 'latents_std', 'latents_mean'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.                                                                                                                  | 0/7 [00:00<?, ?it/s]
+Loading pipeline components...:  14%|█████████████████████▌                                                                                                                                 | 1/7 [00:00<00:01,  5.72it/s]{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.                                                                                              | 2/7 [00:00<00:01,  4.13it/s]
+Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                          Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  9.08it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  80%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                            | 400/500 [27:11<06:16,  3.77s/it, lr=0.0001, step_loss=0.0795]04/04/2024 22:44:38 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: a male orc warlock with Horns, long black hair, green skin, wearing Pauldrons with spikes, a leather amour vest, with an amulet, a sword, Dark, firelit blacksmith shop, medium, frontal.
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                                                                                                                                                          {'force_upcast', 'norm_num_groups', 'latents_std', 'latents_mean'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.                                                                                                                  | 0/7 [00:00<?, ?it/s]
+                                                                                                                                                                                                                          Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...:  14%|█████████████████████▌                                                                                                                                 | 1/7 [00:00<00:01,  5.59it/s]{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.                                                                                              | 2/7 [00:00<00:01,  4.20it/s]
+Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                          Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  9.24it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps:  90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌              | 450/500 [30:37<03:01,  3.63s/it, lr=0.0001, step_loss=0.136]04/04/2024 22:48:04 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: a male orc warlock with Horns, long black hair, green skin, wearing Pauldrons with spikes, a leather amour vest, with an amulet, a sword, Dark, firelit blacksmith shop, medium, frontal.
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                                                                                                                                                          {'force_upcast', 'norm_num_groups', 'latents_std', 'latents_mean'} was not found in config. Values will be initialized to default values.
+Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.                                                                                                      | 0/7 [00:00<?, ?it/s]
+                                                                                                                                                                                                                          Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...:  14%|█████████████████████▌                                                                                                                                 | 1/7 [00:00<00:01,  5.72it/s]{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.                                                                                              | 2/7 [00:00<00:01,  4.23it/s]
+Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.                                                                                                      | 0/7 [00:00<?, ?it/s]
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                          Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  9.30it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 500/500 [34:07<00:00,  3.49s/it, lr=0.0001, step_loss=0.176]04/04/2024 22:51:34 - INFO - accelerate.accelerator - Saving current state to realms/checkpoint-500
+04/04/2024 22:51:39 - INFO - accelerate.checkpointing - Model weights saved in realms/checkpoint-500/model.safetensors
+04/04/2024 22:51:39 - INFO - accelerate.checkpointing - Optimizer state saved in realms/checkpoint-500/optimizer.bin
+04/04/2024 22:51:39 - INFO - accelerate.checkpointing - Scheduler state saved in realms/checkpoint-500/scheduler.bin
+04/04/2024 22:51:39 - INFO - accelerate.checkpointing - Sampler state for dataloader 0 saved in realms/checkpoint-500/sampler.bin
+04/04/2024 22:51:39 - INFO - accelerate.checkpointing - Random states saved in realms/checkpoint-500/random_states_0.pkl
+Model weights saved in realms/checkpoint-500/pytorch_lora_weights.safetensors
+04/04/2024 22:51:39 - INFO - __main__ - Saved state to realms/checkpoint-500
+Steps: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 500/500 [34:12<00:00,  3.49s/it, lr=0.0001, step_loss=0.163]04/04/2024 22:51:39 - INFO - __main__ - Running validation...
+ Generating 4 images with prompt: a male orc warlock with Horns, long black hair, green skin, wearing Pauldrons with spikes, a leather amour vest, with an amulet, a sword, Dark, firelit blacksmith shop, medium, frontal.
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                                                                                                                                                          {'force_upcast', 'norm_num_groups', 'latents_std', 'latents_mean'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.                                                                                                                  | 0/7 [00:00<?, ?it/s]
+                                                                                                                                                                                                                          Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...:  14%|█████████████████████▌                                                                                                                                 | 1/7 [00:00<00:01,  5.65it/s]{'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.                                                                                              | 2/7 [00:00<00:01,  4.05it/s]
+Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                          Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  9.00it/s]
+Model weights saved in realms/pytorch_lora_weights.safetensors
+{'image_encoder', 'requires_safety_checker'} was not found in config. Values will be initialized to default values.
+                                                                                                                                                                                                                          {'force_upcast', 'norm_num_groups', 'latents_std', 'latents_mean'} was not found in config. Values will be initialized to default values.
+Loaded vae as AutoencoderKL from `vae` subfolder of CompVis/stable-diffusion-v1-4.                                                                                                                  | 0/7 [00:00<?, ?it/s]
+Loaded safety_checker as StableDiffusionSafetyChecker from `safety_checker` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                          {'prediction_type', 'timestep_spacing'} was not found in config. Values will be initialized to default values.
+Loaded scheduler as PNDMScheduler from `scheduler` subfolder of CompVis/stable-diffusion-v1-4.                                                                                              | 2/7 [00:00<00:00,  6.20it/s]
+Loaded tokenizer as CLIPTokenizer from `tokenizer` subfolder of CompVis/stable-diffusion-v1-4.
+Loaded text_encoder as CLIPTextModel from `text_encoder` subfolder of CompVis/stable-diffusion-v1-4.
+                                                                                                                                                                                                                          Loaded feature_extractor as CLIPImageProcessor from `feature_extractor` subfolder of CompVis/stable-diffusion-v1-4.
+{'mid_block_type', 'addition_time_embed_dim', 'time_embedding_act_fn', 'timestep_post_act', 'addition_embed_type_num_heads', 'only_cross_attention', 'dual_cross_attention', 'conv_in_kernel', 'resnet_time_scale_shift', 'time_embedding_dim', 'projection_class_embeddings_input_dim', 'use_linear_projection', 'mid_block_only_cross_attention', 'attention_type', 'class_embed_type', 'transformer_layers_per_block', 'resnet_skip_time_act', 'num_attention_heads', 'class_embeddings_concat', 'conv_out_kernel', 'addition_embed_type', 'encoder_hid_dim', 'dropout', 'resnet_out_scale_factor', 'encoder_hid_dim_type', 'reverse_transformer_layers_per_block', 'upcast_attention', 'time_embedding_type', 'cross_attention_norm', 'time_cond_proj_dim', 'num_class_embeds'} was not found in config. Values will be initialized to default values.
+Loaded unet as UNet2DConditionModel from `unet` subfolder of CompVis/stable-diffusion-v1-4.
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00,  9.51it/s]
+Loading unet.ine components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00, 10.59it/s]
+ 97%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉      | 29/30 [00:01<00:00, 17.08it/s]
+ 97%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉      | 29/30 [00:01<00:00, 16.99it/s]
+ 97%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉      | 29/30 [00:01<00:00, 16.86it/s]
+
+ 97%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉      | 29/30 [00:01<00:00, 16.91it/s]
